@@ -57,6 +57,7 @@ const iifeConfig = defineConfig({
 		},
 	},
 	output: {
+		publicPath: "/my-scramjet-proxy/",
 		filename: "scramjet.[name].js",
 		path: join(__dirname, "dist"),
 		libraryTarget: "es2022",
@@ -152,6 +153,7 @@ const moduleConfig = defineConfig({
 		},
 	},
 	output: {
+		publicPath: "/my-scramjet-proxy/",
 		filename: "scramjet.[name].js",
 		path: join(__dirname, "dist"),
 		libraryTarget: "module",
